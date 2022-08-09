@@ -148,7 +148,6 @@ nav > ul > li:last-child {
 .about {
 	background-color: #efe6e4;
 	padding-top: 75px;
-	padding-bottom: 21px;
 }
 
 .about > h1 {
@@ -162,6 +161,7 @@ nav > ul > li:last-child {
 
 .about-content {
 	margin-top: 40px;
+	padding-bottom: 21px;
 	display: flex;
 }
 
@@ -174,4 +174,58 @@ nav > ul > li:last-child {
 
 .about-descriprtion > p:nth-child(1) {
 	margin-top: 0;
+}
+
+.about-data {
+	background-color: #8d7370;
+	padding-top: 85px;
+	padding-bottom: 81px;
+}
+
+.about-data-box {
+	display: flex;
+	justify-content: space-between;
+}
+
+.about-data-item {
+	text-align: center;
+}
+
+.about-data-item > h1 {
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 62px;
+	color: white;
+	margin: 0;
+}
+
+.about-data-item > h2 {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	text-transform: uppercase;
+	color: white;
+	margin-top: 8px;
+	margin-bottom: 0;
+}
+
+/* Works */
+
+.works {
+	background-color: #efe6e4;
+	padding-top: 56px;
+	padding-bottom: 65px;
+}
+
+.works-container {
+	width: 1200px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.works-container > h1 {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
 }
