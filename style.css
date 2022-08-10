@@ -312,7 +312,6 @@ nav > ul > li:last-child {
 .team {
 	background-color: #e2c4ba;
 	padding-top: 50px;
-	padding-bottom: 35px;
 }
 
 .team > h1 {
@@ -346,5 +345,14 @@ nav > ul > li:last-child {
 
 .how-we-work {
 	background-color: #e2c4ba;
+	padding-top: 35px;
 	padding-bottom: 80px;
+}
+
+.how-we-work > h1 {
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+	text-align: center;
 }
