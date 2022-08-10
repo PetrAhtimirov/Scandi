@@ -228,4 +228,81 @@ nav > ul > li:last-child {
 	font-size: 40px;
 	line-height: 50px;
 	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+}
+
+.collage {
+	display: grid;
+	margin-top: 40px;
+	grid-template-columns: 488px 184px 488px;
+	grid-auto-rows: 451px;
+	grid-column-gap: 20px;
+	grid-row-gap: 30px;
+}
+
+.collage > div:first-child {
+	position: relative;
+}
+
+.hover-effect {
+	background-color: rgba(100, 72, 69, 0.8);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0;
+	transition: 0.5s;
+	color: white;
+	padding: 86px 35px;
+}
+
+.hover-effect:hover {
+	opacity: 1;
+}
+
+.hover-effect > .title-box {
+	width: 270px;
+	height: 93px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.hover-effect > .title-box > h3 {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+}
+
+.hover-effect > p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	margin: 0;
+	padding: 0;
+}
+
+.collage > div:nth-child(2) {
+	grid-column-start: 2;
+	grid-column-end: 4;
+}
+
+.collage > div:nth-child(3) {
+	grid-column-start: 1;
+	grid-column-end: 3;
+}
+
+.more-works {
+	text-align: center;
+	margin-top: 40px;
+}
+
+.more-works {
+	font-weight: 500;
+	font-size: 30px;
+	line-height: 37px;
 }
