@@ -389,3 +389,11 @@ nav > ul > li:last-child {
 	justify-content: center;
 	align-items: center;
 }
+
+.plan-item > p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
