@@ -306,3 +306,45 @@ nav > ul > li:last-child {
 	font-size: 30px;
 	line-height: 37px;
 }
+
+/* Team */
+
+.team {
+	background-color: #e2c4ba;
+	padding-top: 50px;
+	padding-bottom: 35px;
+}
+
+.team > h1 {
+	text-align: center;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+
+.team-content {
+	margin-top: 40px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.person {
+	width: 320px;
+}
+
+.person > p {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	margin-top: 10px;
+	margin-bottom: 0;
+	padding: 0;
+}
+
+/* How we are working */
+
+.how-we-work {
+	background-color: #e2c4ba;
+	padding-bottom: 80px;
+}
