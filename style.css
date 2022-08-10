@@ -382,3 +382,50 @@ nav > ul > li:last-child {
 	padding: 65px 0;
 	background-color: #efe6e4;
 }
+
+.reviews-content {
+	margin-top: 40px;
+	display: flex;
+
+	align-items: center;
+}
+
+.arrow {
+	width: 72px;
+	height: 72px;
+	background-color: #cc8b86;
+	border-radius: 36px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	border: none;
+}
+
+.arrow:first-child {
+	margin-right: 29px;
+}
+
+.arrow:last-child {
+	margin-left: 29px;
+}
+
+.view-description {
+	width: 407px;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 30px;
+	margin-right: 20px;
+}
+
+.view-description > span {
+	text-transform: uppercase;
+}
+
+.view-image-group {
+	width: 407px;
+}
+
+.view-image-group > img:first-child {
+	margin-bottom: 24px;
+}
