@@ -11,3 +11,9 @@ for (let smoothLink of smoothLinks) {
         });
     });
 }
+
+/* Input Clear */
+document.getElementById("send-button").onclick = function() {
+	document.getElementById("name").value = "";
+	document.getElementById("phone").value = "";
+};
