@@ -135,7 +135,7 @@ nav > ul > li:last-child {
 /* Main banner */
 
 .main-banner {
-	background: url("image/main-banner-background.png");
+	background: url("../image/main-banner-background.png");
 }
 
 .banner-content {
