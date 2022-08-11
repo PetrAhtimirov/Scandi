@@ -330,6 +330,7 @@ nav > ul > li:last-child {
 
 .more-works > a {
 	transition: 0.4s;
+	cursor: pointer;
 }
 
 .more-works > a:hover {
