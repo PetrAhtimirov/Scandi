@@ -43,7 +43,7 @@ input[type="tel"] {
 
 body {
 	margin: 0;
-	background-color: #e5e5e5;
+	background-color: #d5d1d0;
 	color: #533738;
 
 	/* Font settings */
@@ -60,7 +60,7 @@ body {
 	min-height: 900px;
 }
 
-@media (min-width: 1401px) {
+@media (min-width: 1418px) {
 	.page {
 		border-radius: 20px;
 		margin-left: auto;
